@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.carrito-container {
+    margin: auto;
+    width: 70%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#button-calculate {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#button-calculate:hover:not([disabled]) {
+    background-color: #45a049;
+}
+
+#button-calculate:disabled {
+    background-color: #ddd;
+}
+
+.input-container{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.product-number{
+    text-align: left;
+    width: 10%;
+}
+
+.product-description{
+    text-align: right;
+    width: 80%;
+    margin-right: 15px;
+}
+
+.product-unit{
+    width: 35px;
+}
+
+.footer-container{
+    width: 95%;
+    font-weight: bold;
+}
+.subtotal, .iva, .total {
+    display: flex; 
+    margin-bottom: 20px; 
+}
+
+#subtotal_title, #iva_title, #total_title{
+    width: 70%;
+    text-align: right;
+}
+
+#subtotal_price, #iva_price, #total_price{
+    width: 30%;
+    text-align: right;
+}
